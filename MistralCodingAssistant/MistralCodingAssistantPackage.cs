@@ -26,6 +26,7 @@ namespace MistralCodingAssistant
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(MistralCodingAssistantPackage.PackageGuidString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
+    [ProvideToolWindow(typeof(MistralCodingAssistantSideTab))]
     public sealed class MistralCodingAssistantPackage : AsyncPackage
     {
         /// <summary>
@@ -48,6 +49,7 @@ namespace MistralCodingAssistant
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             await ExplainCodeCommand.InitializeAsync(this);
+            await MistralCodingAssistantSideTabCommand.InitializeAsync(this);
         }
 
         #endregion
