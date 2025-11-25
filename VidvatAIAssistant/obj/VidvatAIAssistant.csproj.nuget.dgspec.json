@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\venub\\source\\repos\\VidvatAIAssistant\\VidvatAIAssistant\\VidvatAIAssistant.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\venub\\source\\repos\\VidvatAIAssistant\\VidvatAIAssistant\\VidvatAIAssistant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\venub\\source\\repos\\VidvatAIAssistant\\VidvatAIAssistant\\VidvatAIAssistant.csproj",
+        "projectName": "VidvatAIAssistant",
+        "projectPath": "C:\\Users\\venub\\source\\repos\\VidvatAIAssistant\\VidvatAIAssistant\\VidvatAIAssistant.csproj",
+        "packagesPath": "C:\\Users\\venub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\venub\\source\\repos\\VidvatAIAssistant\\VidvatAIAssistant\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\venub\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.14.2120, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.32112.339, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.3650-prerelease, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

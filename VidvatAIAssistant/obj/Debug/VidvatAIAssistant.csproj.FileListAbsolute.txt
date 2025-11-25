@@ -1,0 +1,15 @@
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistant.csproj.AssemblyReference.cache
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatToolWindowControl.baml
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatToolWindowControl.g.cs
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistant_MarkupCompile.cache
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistant.g.resources
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\_EmptyResource.resources
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistant.csproj.GenerateResource.cache
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistantPackage.cto
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VSCT.read.1.tlog
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VSCT.write.1.tlog
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\resources.json
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\ctoFiles.json
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\_EmptyResource.resources.original
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\mergeCto.cache
+C:\Users\venub\source\repos\VidvatAIAssistant\VidvatAIAssistant\obj\Debug\VidvatAIAssistant.csproj.CoreCompileInputs.cache

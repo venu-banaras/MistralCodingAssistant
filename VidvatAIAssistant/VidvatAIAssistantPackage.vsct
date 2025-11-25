@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <Extern href="stdidcmd.h" />
+
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidVidvatAIAssistantPackage">
+
+    <Groups>
+      <Group guid="guidVidvatAIAssistantPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+
+      <Button guid="guidVidvatAIAssistantPackageCmdSet" id="VidvatCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidVidvatAIAssistantPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+          <ButtonText>Vidvat</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidVidvatAIAssistantPackageCmdSet" id="cmdidVidvatToolWindowCommand" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1" />
+        <Icon guid="guidImages1" id="bmpPic1" />
+        <Strings>
+          <ButtonText>VidvatToolWindow</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+    <Bitmaps>
+
+      <Bitmap guid="guidImages" href="Resources\VidvatCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages1" href="Resources\VidvatToolWindowCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+    </Bitmaps>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidVidvatAIAssistantPackage" value="{4cee904e-cf10-4b2e-8e78-dc1cb10faeef}" />
+
+    <GuidSymbol name="guidVidvatAIAssistantPackageCmdSet" value="{d548b0d8-52bb-45ee-81d0-1427a477b2c8}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="VidvatCommandId" value="0x0100" />
+      <IDSymbol value="4129" name="cmdidVidvatToolWindowCommand" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidImages" value="{e0fff5bd-7dd4-470b-9326-4b465f3ccc8c}">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{38d4701d-9df8-47f2-b8ef-ee6a64442e07}" name="guidImages1">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
